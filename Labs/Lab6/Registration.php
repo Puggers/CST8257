@@ -34,12 +34,6 @@ $boxlist = array();
 $_SESSION['finishedHours'] = array();
 $_SESSION['finishedNames'] = array();
 $action = "Registration.php";
-<<<<<<< HEAD
-
-
-foreach ($listCourses as $line) {
-=======
->>>>>>> 23e6b64dced3e81fed0aa72e15f92ec9dfdbb743
 
 
 foreach ($listCourses as $line) {
@@ -132,16 +126,12 @@ if (isset($_POST["reset"]))
 
 {
 
-
-<<<<<<< HEAD
     header('Location: Result.php?');
     $action = "Result.php";
     die();
-=======
     session_destroy();
     $_POST = array();
     header("Refresh:0");
->>>>>>> 23e6b64dced3e81fed0aa72e15f92ec9dfdbb743
 }
 
 
