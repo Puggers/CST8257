@@ -1,12 +1,9 @@
 <html>
 
-<head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="registration.css">
-    <title>Course Registration</title>
-</head>
+<?php include('header.php');?>
 
 <body>
+
 
 <?php
 include "navbar.php";
