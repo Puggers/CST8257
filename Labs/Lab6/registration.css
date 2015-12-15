@@ -1,0 +1,24 @@
+.txtoverrides {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+.formtopmargin {
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center !important;
+}
+
+.alertwidth {
+    width: 250px !important;
+}

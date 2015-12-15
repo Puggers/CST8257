@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <LINK href="DepositCalculator.css" rel="stylesheet" type="text/css"></LINK>
+    <h1>Deposit Calculator</h1>
+</head>
+
+<body>
+    <form action="DepositCalculator.php" method="POST" id="calculator" name="calculator">
+        <p>
+            <label for="pamount">Principal Amount:</label>
+            <input type="text" name="principalamount" id="pamount">
+        </p>
+        <p>
+            <label for="irate">Interest Rate (%):</label>
+            <input type="text" name="interestrate" id="irate">
+        </p>
+        <p>
+            <label for="years">Years to Deposit</label>
+            <select name="years">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </p>
+
+
+        <div id="seperator" class="seperator"></div>
+        <br>
+
+        <p>
+            <label for="name">Your Name:</label>
+            <input type="text" name="name" id="name">
+        </p>
+        <p>
+            <label for="phone">Your Phone Number:</label>
+            <input type="text" name="phone" id="phone">
+        </p>
+        <p>
+            <label for="email">Your Email:</label>
+            <input type="email" name="email" id="email">
+        </p>
+
+        <p>
+            <label for="method">Your Preferred Contact Method:</label>
+            <input type="radio" name="contact" value="Phone">Phone
+            <input type="radio" name="contact" value="Email">Email
+        </p>
+
+        If phone is selected, when can we contact you?
+        <br> (check all applicable)
+        <br>
+
+        <p>
+
+            <input type="checkbox" class="check" name="time[]" value="Morning">Morning
+            <input type="checkbox" name="time[]" class="check" value="Afternoon">Afternoon
+            <input type="checkbox" name="time[]" class="check" value="Night">Night
+        </p>
+
+        <input type="submit" class="submit" value="Submit">
+    </form>
+
+
+
+</body>
+
+</html>

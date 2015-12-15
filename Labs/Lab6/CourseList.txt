@@ -1,0 +1,58 @@
+CON8101 Residential Building/Estimating 6 hrs/w 
+CON8411 Construction Materials I 4 hrs/w
+CON8430 Computers and You 4 hrs/w
+MAT8050 Geometry and Trigonometry 4 hrs/w 
+SAF8408 Health and Safety 5 hrs/w
+SUR8411 Construction Surveying I 6 hrs/w 
+CON8102 Commercial Building/Estimating 6 hrs/w 
+CON8412 Construction Materials II 6 hrs/w
+ENG8101 Statics 6 hrs/w
+ENL1813T Communications I 4 hrs/w 
+MAT8051 Algebra 4 hrs/w
+SUR8412 Construction Surveying II 4 hrs/w 
+GED0192 General Education Elective 4 hrs/w
+CAD8400 AutoCAD I 4 hrs/w
+CON8404 Civil Estimating 4 hrs/w 
+CON8436 Building Systems 4 hrs/w
+ENG8102 Strength of Materials 4 hrs/w 
+ENG8411 Structural Analysis 4 hrs/w
+MGT8400 Project Administration 4 hrs/w 
+CAD8405 AutoCAD II 4 hrs/w
+CON8413 Construction Building Code 4 hrs/w 
+ENG8328 Hydraulics 4 hrs/w
+ENG8404 Introduction to Structural Design 4 hrs/w 
+ENG8454 Geotechnical Materials 4 hrs/w
+ENL1819T Reporting Technical Information 6 hrs/w 
+ENV8400 Environmental Engineering 4 hrs/w
+CON8406 Project Scheduling and Cost Control 4 hrs/w 
+CON8425 Design of Steel Structures 4 hrs/w
+CON8445 Soils Analysis 4 hrs/w
+CON8466 Highway Engineering 4 hrs/w 
+ENL4004 Orientation to Report Writing 15 hrs/w 
+MAT8201 Calculus 1 4 hrs/w
+SUR8400 Civil Surveying III 4 hrs/w 
+CON8416 GIS for Civil Engineering 4 hrs/w 
+CON8447 Foundations 4 hrs/w
+CON8476 Business Principles 4 hrs/w 
+ENG8435 Reinforced Concrete Design 4 hrs/w 
+ENG8451 Water and Waste Water Technology 4 hrs/w 
+ENL8420 Project Report 4 hrs/w
+GED0192 General Education Elective 4 hrs/w
+CST8110 Introduction to Computer Programming 5 hrs/w
+CST8209 Web Programming I 5 hrs/w 
+CST8260 Database System and Concepts 4 hrs/w 
+ENL1813T Communications I 3 hrs/w 
+MAT8001 Math Fundamentals 3 hrs/w
+MGT8100 Career and College Success Skills 3 hrs/w 
+CST8250 Database Design and Administration 5 hrs/w 
+CST8253 Web Programming II 4 hrs/w
+CST8254 Network Operating Systems 5 hrs/w 
+CST8255 Web Imaging and Animations 4 hrs/w
+CST8256 Web Programming Languages I 5 hrs/w
+CST8257 Web Applications Development 5 hrs/w 
+CST8258 Web Project Management 3 hrs/w
+ENL1819T Reporting Technical Information 4 hrs/w
+WKT8100 Cooperative Education Work Term Preparation 15 hrs/w
+CST8259 Web Programming Languages II 5 hrs/w
+CST8265 Web Security Basics 5 hrs/w
+CST8267 Ecommerce 4 hrs/w

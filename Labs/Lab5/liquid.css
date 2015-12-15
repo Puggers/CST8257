@@ -1,0 +1,18 @@
+
+.setWidth{
+    width: 200px !important;
+}
+
+.error{
+    color: red;
+    font-size: 16pt;
+    text-align: center;
+    font-family: 'Doppio One', sans-serif;
+}
+
+.result {
+    font-size: 16pt;
+    text-align: center;
+    font-family: 'Doppio One', sans-serif;
+
+}

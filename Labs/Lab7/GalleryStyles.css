@@ -1,0 +1,17 @@
+.inputStyling{
+    padding-top: 6px;
+}
+
+.bannerWidth{
+    width: 300px;
+    margin-left: 200px;
+}
+
+table{
+    margin-left: -200px;
+
+}
+
+td{
+    padding: 50px 50px 10px 10px;
+}

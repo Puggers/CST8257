@@ -1,0 +1,58 @@
+h1 {
+    font-weight: 800;
+    font-size: 16pt;
+}
+
+form {
+    display: table;
+}
+
+p {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+input {
+    display: table-cell;
+}
+
+.seperator {
+    width: 200%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: black;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin-top: 20px;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+td {
+    padding-right: 30px;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+.check {
+    margin-top: 10px;
+}

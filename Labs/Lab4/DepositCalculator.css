@@ -1,0 +1,15 @@
+.error {
+    color:red !important;
+}
+
+.textfields{
+    width: 300px !important;
+}
+.optionbox{
+    width: 100px !important;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
