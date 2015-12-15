@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
-
+<?php
+include_once "header.php";
+?>
 <?php
 $alertText = "<div class=\"alert alert-info bannerWidth\" role=\"alert\">Accepted Types: JPEG, JPG, GIF, PNG</div>";
 $i = 0;
@@ -44,6 +46,10 @@ if (isset($_FILES["files"])) {
     <link rel="stylesheet" href="GalleryStyles.css">
 </head>
 <body>
+
+<?php
+include "navbar.php";
+?>
 <div class="container">
     <div class="row">
         <div class="column-md-12">

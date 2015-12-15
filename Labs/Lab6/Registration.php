@@ -6,9 +6,11 @@
     <title>Course Registration</title>
 </head>
 
-
 <body>
 
+<?php
+include "navbar.php";
+?>
 
 <?php
 session_start();
