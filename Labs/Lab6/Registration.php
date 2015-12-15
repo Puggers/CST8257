@@ -1,6 +1,6 @@
 <html>
 
-<?php include('header.php');?>
+<?php include('header.php'); ?>
 
 <body>
 
@@ -21,7 +21,7 @@ $nameError = "";
 $pwError = "";
 $phoneError = "";
 $postalError = "";
-$patternPassword = "((?=.*\d)(?=.*[A-Z])(?=.*​[a-z])(?=.*\W).{6,20})";
+$patternPassword = "((?=.*\d)(?=.*[A-Z])(?=.*\W).{6,20})";
 $patternPhone = "/^[0-9][0-9][0-9]\W[0-9][0-9][0-9]\W[0-9][0-9][0-9][0-9]$/";
 $patternPostal = "/([A-Z]|[a-z])[0-9]([A-Z]|[a-z]) ?[0-9]([A-Z]|[a-z])[0-9]/";
 $hidden = "";
@@ -41,7 +41,7 @@ foreach ($listCourses as $line) {
 
         $totalHours += GetCourseHours($line);
         array_push($_SESSION['finishedHours'], GetCourseHours($line));
-        array_push($_SESSION['finishedNames'],GetCourseName($line));
+        array_push($_SESSION['finishedNames'], GetCourseName($line));
         $checked = "checked";
     } else {
         $checked = "";
@@ -119,26 +119,22 @@ if (isset($_POST["submit"]) && !empty($_POST)) {
         $hoursError = '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign error" aria-hidden="true"></span><span class="sr-only">Error:</span> Not enough hours.</div>';
         $error++;
     }
+    if ($error == 0) {
+        header("Location: Result.php");
+}
 
 }
-if (isset($_POST["reset"]))
-
-{
-
-    header('Location: Result.php?');
-    $action = "Result.php";
-    die();
+if (isset($_POST["reset"])) {
     session_destroy();
     $_POST = array();
     header("Refresh:0");
 }
 
 
-
 //Retrieve hours from each line read in from file
 function GetCourseHours($CourseLine)
 {
-    $pattern1digit = "/ ([0-9])|([0-9]) /";
+    $pattern1digit = "/ ([0-9]) /";
     $pattern2digits = "/ ([0-9][0-9]) /";
 
     preg_match($pattern1digit, $CourseLine, $matches);
@@ -169,7 +165,7 @@ function GetCourseName($CourseLine)
 
             <h2>Please Enter the required registration data</h2>
 
-            <form class="form-horizontal formtopmargin" action="<?php echo $action;?>" method="POST">
+            <form class="form-horizontal formtopmargin" action="<?php echo $action; ?>" method="POST">
 
                 <div class="form-group">
                     <label for="userName" class="col-sm-2 control-label">User Name:</label>
